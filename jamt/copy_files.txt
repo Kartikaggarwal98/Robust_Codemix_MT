@@ -1,0 +1,10 @@
+head -100 valid.lcsmain.hicm-en.hicm > ~/codemix/arr_fairseq/ctrans/valid.ctrans.hicm-en.hicm
+head -100 valid.lcsmain.hicm-en.en > ~/codemix/arr_fairseq/ctrans/valid.ctrans.hicm-en.en
+head -100 valid.lcsmain.hicmrom-en.hicmrom > ~/codemix/arr_fairseq/ctrans/valid.ctrans.hicmrom-en.hicmrom
+head -100 valid.lcsmain.noisyhicmrom-en.noisyhicmrom > ~/codemix/arr_fairseq/ctrans/valid.ctrans.noisyhicmrom-en.noisyhicmrom
+head -100 valid.lcsmain.hi-en.hi > ~/codemix/arr_fairseq/ctrans/valid.ctrans.hi-en.hi
+head -100 valid.lcsmain.hirom-en.hirom > ~/codemix/arr_fairseq/ctrans/valid.ctrans.hirom-en.hirom
+
+head -100 valid.lcsmain.bnrom-en.bnrom > ~/codemix/arr_fairseq/ctrans/valid.ctrans.bnrom-en.bnrom
+head -100 valid.lcsmain.bn-en.bn > ~/codemix/arr_fairseq/ctrans/valid.ctrans.bn-en.bn
+head -100 valid.lcsmain.bn-en.en > ~/codemix/arr_fairseq/ctrans/valid.ctrans.bn-en.en

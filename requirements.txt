@@ -1,0 +1,5 @@
+# python<=3.6
+tqdm
+numpy
+sentencepiece
+torch==1.4.0
