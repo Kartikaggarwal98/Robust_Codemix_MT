@@ -2,10 +2,11 @@
 
 This is a framework for translating text from codemix languages such as Hinglish, Bengalish to English. The repository includes datasets and pretrained-models for training and prediction. The models are capable of translating all-inclusive text i.e. an input with a mix of Devanagari / Romanized Hindi. The robustness capabilities of the model enables it to effectively handle spelling mistakes.
 
-The following datasets are available:
 
-1. hinmix_ctrans
-2. hinmix_calign
+Link to datasets on huggingface: 
+ - [HINMIX hindi-english parallel codemix](https://huggingface.co/datasets/kartikagg98/HINMIX_hi-en)
+ - [HINMIX bengali-english parallel codemix (val and test only)](https://huggingface.co/datasets/kartikagg98/HINMIX_bn-en)
+
 
 The following models are available:
 
@@ -68,7 +69,6 @@ After preprocessing and training, the file structure would look like this:
 |   ├──    examples
 |   |   ├──    translation
 |   |   |    ├──    calign
-|   |   |    ├──    ctrans
 |   ├──    checkpoints
 |   |   ├──    hinmix_calign_rcmt1
 |   |   |    ├──    checkpoint.pt
